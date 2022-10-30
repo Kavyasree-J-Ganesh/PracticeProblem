@@ -1,0 +1,6 @@
+#!/bin/bash -x
+
+for (( count=0; count<=10; count++ ))
+do
+	randomNum=$((RANDOM%999))
+	Numbers[$count]
